@@ -943,3 +943,46 @@ footer p{
     text-align:center;
 
 }
+.youtube-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.youtube-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 24px;
+    color: white;
+    background: linear-gradient(45deg, #8b5cf6, #ec4899);
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.youtube-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(139,92,246,.5);
+}
+.social .linkedin,
+.social .linkedin:visited,
+.social .linkedin:focus,
+.social .linkedin:active {
+    text-decoration: none;
+    color: white;
+}
+
+.social .linkedin i {
+    background: linear-gradient(45deg, #8b5cf6, #ec4899);
+    color: white;
+}
+
+.social .linkedin:hover i {
+    background: linear-gradient(45deg, #8b5cf6, #ec4899);
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0 0 20px rgba(139,92,246,.5);
+}
+
